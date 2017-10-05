@@ -1,0 +1,13 @@
+### Roda um container no foreground escutando na porta 80 com imagem nginx.
+docker container run --publish 80:80 nginx
+
+### Roda um container no background escutando na porta 80 com imagem nginx.
+docker container run --publish 80:80 --detach nginx
+
+### Inicia um container no background com imagem nginx, escutando na porta 80 e nome webhost.
+docker container run --publish 80:80 --detach --name webhost nginx
+
+### Lista containers em execução. Opção -a para todos.
+docker container ls
+
+
