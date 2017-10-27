@@ -1,2 +1,2 @@
 #!/bin/bash
-ssh ec2-user@52.54.131.125 -i /home/fernandocunha/Documents/Chaves/Mobicare-desenv/MOBICARE-DESENV.pem
+ssh ec2-user@34.229.120.219 -i /home/fernandocunha/Documents/Chaves/Mobicare-desenv/MOBICARE-DESENV.pem
